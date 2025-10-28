@@ -1,4 +1,3 @@
-
 CREATE TABLE Genres(
 genre_id INT PRIMARY KEY,
 genre_name VARCHAR(45) NOT NULL
@@ -33,7 +32,7 @@ title VARCHAR(100),
 platform VARCHAR(50),
 release_year YEAR,
 price DECIMAL(6,2),
-availability ENUM('Available','unavailable'),
+availability ENUM('Available','Unavailable'),
 avg_rating DECIMAL(2,1),
 genre_id INT,
 FOREIGN KEY(genre_id) REFERENCES Genres(genre_id)
