@@ -1,4 +1,3 @@
-use mydbs;
 
 CREATE TABLE Genres(
 genre_id INT PRIMARY KEY,
