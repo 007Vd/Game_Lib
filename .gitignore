@@ -1,0 +1,18 @@
+# macOS system files
+.DS_Store
+
+# Logs and cache
+*.log
+*.env
+
+# PHP config (contains local credentials)
+config/db_connect.php
+
+# IDE/project files
+.vscode/
+.idea/
+
+# Dependencies (if you ever use Composer)
+vendor/
+
+
